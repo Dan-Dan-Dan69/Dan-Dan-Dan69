@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" name="nombre" id="nombre">
+        </label>
+        <label for="nombre">
+            <span>¿Cual es tu fecha de nacimiento?</span>
+            <input type="date" name="Cual es tu fecha de nacimiento" id="Cual es tu fecha de nacimiento">
+        </label>
+        <label for="nombre">
+            <span>¿Cual es tu correo electronico?</span>
+            <input type="email" name="Cual es tu correo electronico" id="Cual es tu correo electronico">
+        </label>
+        <label for="nombre">
+            <span>¿Cuando y a que hora naciste?</span>
+            <input type="datetime-local" name="Cuando y a que hora naciste" id="Cuando y a que hora naciste">
+        </label>
+    </form>
+    <form action="">
+        <span>Elije una fruta</span>
+        <select name="frutas" id="frutas">
+            <option value="mango">Mango</option>
+            <option value="manzana">Manzana</option>
+            <option value="pera">Pera</option>
+            <option value="uva">Uva</option>
+            <option value="curuba">Curuba</option>
+        </select>
+    </form>
+    <form action="">
+        <label for="frutas2">
+            <span>Elije una fruta 2</span>
+            <input list="frutas2">
+                <datalist id="frutas2">
+                    <option value="Mango">
+                    <option value="Manzana">
+                    <option value="Pera">
+                    <option value="Uva">
+                    <option value="Curuba">
+                </datalist>
+        </label>
+        <label for="frutas">
+            <span>Elije una fruta</span>
+            <select name="frutas" id="frtuas">
+                <option value="mango">Mango</option>
+                <option value="manzana">Manzana</option>
+                <option value="pera">Pera</option>
+                <option value="uva">Uva</option>
+                <option value="curuba">Curuba</option>
+            </select>
+        </label>
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+    <input type="button" value="Click here">
+</body>
+</html>
